@@ -28,3 +28,22 @@ body{
     height: 42px;
     width: 42px;
 }
+
+iframe {
+    border: none;
+}
+
+.principal-janela{
+    display: flex;
+    /* quebrar quando chegar na borda */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* espaço entre itens */
+    gap: 32px; 
+    margin: 32px;
+}
+
+.principal-janela img{
+    height: 96px;
+    width: 96px;
+}

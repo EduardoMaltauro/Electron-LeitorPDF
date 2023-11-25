@@ -20,5 +20,24 @@
     <div class="leitura-janela">
         <iframe src="" height="0px" width="100%"></iframe>
     </div>
+    <div class="principal-janela">
+        <img src="./icon.png" alt="PDF" onclick="abrirPDF('../documents/Livro1.pdf')">
+        <img src="./icon.png" alt="PDF" onclick="abrirPDF('../documents/Livro2.pdf')">
+        <img src="./icon.png" alt="PDF" onclick="abrirPDF('../documents/Livro3.pdf')">
+        <img src="./icon.png" alt="PDF" onclick="abrirPDF('../documents/Livro4.pdf')">
+        <img src="./icon.png" alt="PDF" onclick="abrirPDF('../documents/Livro5.pdf')">
+        <img src="./icon.png" alt="PDF" onclick="abrirPDF('../documents/Livro6.pdf')">
+        <img src="./icon.png" alt="PDF" onclick="abrirPDF('../documents/Livro7.pdf')">
+    </div>
+
+    <script>
+        function abrirPDF(endereco){
+            const campo = document.querySelector("iframe")
+            
+            campo.setAttribute("src", endereco)
+            campo.setAttribute("height", "500px")
+
+        }
+    </script>
 </body>
 </html>

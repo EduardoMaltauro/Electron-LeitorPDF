@@ -10,6 +10,6 @@
   "author": "Eduardo Luís Maltauro",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^27.1.0"
+    "electron": "^27.1.2"
   }
 }
